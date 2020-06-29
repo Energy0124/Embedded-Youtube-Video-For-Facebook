@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Embedded Youtube Video For Facebook
 // @namespace    https://openuserjs.org/users/Energy0124
-// @version      0.1.1
+// @version      0.1.2
 // @description  Convert Youtube video link in Facebook to embedded video, works for post and comment.
 // @author       Energy0124
 // @copyright    2020, Energy01214
