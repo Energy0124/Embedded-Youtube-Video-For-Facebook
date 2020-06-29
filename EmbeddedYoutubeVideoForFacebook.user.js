@@ -49,7 +49,7 @@
                     .map(x => {
                         return [x.parentElement, youtube_parser(decodeURIComponent(x.parentElement.href.replace("https://l.facebook.com/l.php?u=", "")))];
                     }).map(x => {
-                    x[0].parentElement.parentElement.parentElement.innerHTML = `<div style="position: relative width: 100% height: 0 padding-bottom: 56.25%;"><iframe style="position: absolute top: 0 left: 0 width: 100% height: 100%;" src="https://www.youtube.com/embed/${x[1]}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
+                    x[0].parentElement.parentElement.parentElement.innerHTML = `<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/${x[1]}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`
                 });
 
             });
