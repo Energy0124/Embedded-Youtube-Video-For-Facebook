@@ -1,0 +1,13 @@
+
+{
+  "name": "Embedded Youtube Video For Facebook",
+  "description": "Convert Youtube video link in Facebook to embedded video, works for post and comment.",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches":["*://www.facebook.com/*"],
+      "js": ["./EmbeddedYoutubeVideoForFacebook.user.js"]
+    }
+  ]
+}
